@@ -1,6 +1,9 @@
+    import Hero from '../components/home/Hero'
+
     function Home() {
     return (
-        <main className="pt-[108px] md:pt-[112px]">
+        <main>
+        <Hero />
         </main>
     )
     }
