@@ -14,7 +14,7 @@
     useEffect(() => {
         const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
-        }, 4000)
+        }, 2000)
 
         return () => clearInterval(interval)
     }, [images.length])
@@ -40,7 +40,7 @@
             <figure className="relative max-w-5xl mx-auto">
             <button
                 onClick={goToPrevious}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-100 text-[#4A4238] p-3 rounded-full transition-all duration-300 z-10"
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-100 text-[#4A4238] p-3 rounded-full transition-all duration-300 z-10 cursor-pointer"
                 aria-label="Imagen anterior"
             >
                 <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -58,7 +58,7 @@
 
             <button
                 onClick={goToNext}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-100 text-[#4A4238] p-3 rounded-full transition-all duration-300 z-10"
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-100 text-[#4A4238] p-3 rounded-full transition-all duration-300 z-10 cursor-pointer"
                 aria-label="Imagen siguiente"
             >
                 <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">

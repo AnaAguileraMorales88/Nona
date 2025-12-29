@@ -13,7 +13,7 @@
     ]
 
     return (
-        <nav className="fixed top-[37px] md:top-[44px] left-0 right-0 bg-[#FAEED1] z-40">
+        <nav className="fixed top-[40px] left-0 right-0 bg-[#FAEED1] z-40">
         <ul className="hidden md:flex justify-center items-center gap-8 py-4 px-6">
             {menuItems.map((item) => (
             <li key={item.name}>
@@ -29,7 +29,7 @@
             ))}
         </ul>
 
-        <section className="md:hidden flex justify-end items-center py-3 px-4">
+        <section className="md:hidden flex justify-end items-center py-4 px-4">
             <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-[#4A4238] p-2 focus:outline-none focus:ring-2 focus:ring-[#8B6F47] rounded"
