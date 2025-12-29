@@ -11,13 +11,13 @@
 
         <nav className="flex justify-center items-center gap-6" aria-label="Redes sociales">
             <a href="mailto:contacto@nona.com" aria-label="Enviar email">
-            <img src={emailIcon} alt="" className="h-8 md:h-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src={emailIcon} alt="Icono Email" className="h-8 md:h-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
             </a>
             <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
-            <img src={whatsappIcon} alt="" className="h-8 md:h-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src={whatsappIcon} alt="Icono Whatsapp" className="h-8 md:h-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
             </a>
             <a href="https://instagram.com/nona" target="_blank" rel="noopener noreferrer" aria-label="Seguir en Instagram">
-            <img src={instagramIcon} alt="" className="h-8 md:h-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src={instagramIcon} alt="Icono Instagram" className="h-8 md:h-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
             </a>
         </nav>
         </section>
