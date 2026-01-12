@@ -2,7 +2,7 @@
     import Story from '../components/home/Story'
     import SynopsisContent from '../components/sinopsis/SynopsisContent'
     import TechnicalSheet from '../components/sinopsis/TechnicalSheet'
-
+import AuthorNote from '../components/shared/AuthorNote'
 
     function Home() {
     return (
@@ -11,6 +11,7 @@
         <SynopsisContent />
         <Story />
         <TechnicalSheet />
+        <AuthorNote />
         </main>
     )
     }

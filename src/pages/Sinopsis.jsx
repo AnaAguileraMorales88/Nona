@@ -1,9 +1,10 @@
-    import SynopsisContent from '../components/sinopsis/SynopsisContent'
+    import AuthorNote from '../components/shared/AuthorNote'
+    
 
     function Sinopsis() {
     return (
         <main>
-        <SynopsisContent />
+        <AuthorNote />
         </main>
     )
     }

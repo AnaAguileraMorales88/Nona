@@ -32,7 +32,7 @@
     return (
         <section className="bg-[#DED1B6] py-16 px-6">
         <article className="max-w-6xl mx-auto">
-            <p className="text-[#4A4238] text-center text-lg md:text-xl font-light mb-12 leading-relaxed px-4">
+            <p className="text-[#4A4238] text-center text-lg md:text-xl font-semibold mb-10 leading-relaxed px-4">
             Dos generaciones enfrentan la nostalgia y el deseo de pertenencia,<br className="hidden md:block" />
             descubriendo que el hogar es más que un lugar.
             </p>
@@ -43,7 +43,7 @@
                 className="absolute left-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-100 text-[#4A4238] p-3 rounded-full transition-all duration-300 z-10 cursor-pointer"
                 aria-label="Imagen anterior"
             >
-                <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-8 h-8" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                 <path d="M15 19l-7-7 7-7" />
                 </svg>
             </button>
