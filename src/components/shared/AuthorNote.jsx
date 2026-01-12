@@ -1,6 +1,6 @@
     function AuthorNote() {
     return (
-        <section className="bg-[#DED1B6] py-14 px-6">
+        <section className="bg-[#DED1B6] pt-32 pb-16 px-6">
         <article className="max-w-4xl mx-auto">
             <h2 className="text-[#4A4238] text-center text-xl md:text-2xl font-bold mb-8 uppercase tracking-wide">
             Nota de la Autora

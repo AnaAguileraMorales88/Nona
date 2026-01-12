@@ -6,8 +6,7 @@
 
     const menuItems = [
         { name: 'INICIO', path: '/' },
-        { name: 'SINOPSIS', path: '/sinopsis' },
-        { name: 'TEASER', path: '/teaser' },
+        { name: 'SOBRE NOSOTROS', path: '/sinopsis' },
         { name: 'MAKING-OFF', path: '/making-off' },
         { name: 'CRÉDITOS', path: '/creditos' }
     ]

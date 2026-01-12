@@ -2,7 +2,7 @@
 
     function SynopsisContent() {
     return (
-        <section className="bg-[#DED2B6] py-16 px-6">
+        <section className="bg-[#FCFAEE] py-16 px-6">
         <article className="max-w-4xl mx-auto">
             <h2 className="text-[#4A4238] text-center text-2xl md:text-2xl font-bold mb-12 uppercase tracking-wide">
             Sinopsis
@@ -13,7 +13,7 @@
                 <img
                 src={sinopsisImg}
                 alt="Imagen representativa de la sinopsis"
-                className="w-full md:w-96 md:h-[500px] rounded-lg shadow-lg object-cover"
+                className="w-full md:w-100 md:h-[450px] rounded-lg shadow-lg object-cover"
                 />
             </figure>
 

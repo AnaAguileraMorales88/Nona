@@ -30,7 +30,7 @@
     }
 
     return (
-        <section className="bg-[#DED1B6] py-16 px-6">
+        <section className="bg-[#FCFAEE] py-16 px-6">
         <article className="max-w-6xl mx-auto">
             <p className="text-[#4A4238] text-center text-lg md:text-xl font-semibold mb-10 leading-relaxed px-4">
             Dos generaciones enfrentan la nostalgia y el deseo de pertenencia,<br className="hidden md:block" />

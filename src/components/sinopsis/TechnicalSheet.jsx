@@ -18,7 +18,7 @@
     ]
 
     return (
-        <section className="bg-[#DED1B6] py-16 px-6">
+        <section className="bg-[#FCFAEE] py-16 px-6">
         <article className="max-w-6xl mx-auto">
             <h2 className="text-[#4A4238] text-center text-xl md:text-2xl font-bold mb-12 uppercase tracking-wide">
             Ficha Técnica
@@ -29,11 +29,11 @@
                 <img
                 src={fichaImg}
                 alt="Imagen representativa del cortometraje NONA"
-                className="w-full md:w-[500px] md:h-[600px] rounded-lg shadow-lg object-cover"
+                className="w-full md:w-[500px] md:h-[500px] rounded-lg shadow-lg object-cover"
                 />
             </figure>
 
-            <dl className="flex-1 grid grid-cols-1 gap-4 text-[#4A4238]">
+            <dl className="flex-1 grid grid-cols-1 gap-3 text-[#4A4238]">
                 {technicalData.map((item, index) => (
                 <section key={index} className="flex gap-2">
                     <dt className="font-bold text-sm md:text-base uppercase tracking-wide">
