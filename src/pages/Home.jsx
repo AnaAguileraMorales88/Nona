@@ -1,13 +1,16 @@
     import Hero from '../components/home/Hero'
     import Story from '../components/home/Story'
-    import Director from '../components/home/Director'
+    import SynopsisContent from '../components/sinopsis/SynopsisContent'
+    import TechnicalSheet from '../components/sinopsis/TechnicalSheet'
+
 
     function Home() {
     return (
         <main>
         <Hero />
+        <SynopsisContent />
         <Story />
-        <Director />
+        <TechnicalSheet />
         </main>
     )
     }
