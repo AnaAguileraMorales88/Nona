@@ -3,7 +3,7 @@
 
     function Footer() {
     return (
-        <footer className="bg-[#BCAA8D] py-12 px-6">
+        <footer className="bg-[#ECDFCC] py-12 px-6">
         <Collaborators />
         <SocialMedia />
         </footer>

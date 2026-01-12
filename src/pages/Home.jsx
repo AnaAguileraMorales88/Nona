@@ -9,8 +9,8 @@ function Home() {
         <main>
             <Hero />
             <SynopsisContent />
-            <VideoPlayer />
             <Story />
+            <VideoPlayer />
             <TechnicalSheet />
         </main>
     )

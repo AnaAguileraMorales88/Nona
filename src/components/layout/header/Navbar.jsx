@@ -6,13 +6,13 @@
 
     const menuItems = [
         { name: 'INICIO', path: '/' },
-        { name: 'SOBRE NOSOTROS', path: '/sinopsis' },
+        { name: 'SOBRE NOSOTROS', path: '/about' },
         { name: 'MAKING-OFF', path: '/making-off' },
         { name: 'CRÉDITOS', path: '/creditos' }
     ]
 
     return (
-        <nav className="fixed top-[40px] left-0 right-0 bg-[#FAEED1] z-40">
+        <nav className="fixed top-[40px] left-0 right-0 bg-[#ECDFCC] z-40">
         <ul className="hidden md:flex justify-center items-center gap-8 py-4 px-6">
             {menuItems.map((item) => (
             <li key={item.name}>

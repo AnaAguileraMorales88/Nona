@@ -3,7 +3,7 @@ import Header from '../components/layout/header/Header'
 import Navbar from '../components/layout/header/Navbar'
 import Footer from '../components/layout/footer/Footer'
 import Home from '../pages/Home'
-import Sinopsis from '../pages/Sinopsis'
+import About from '../pages/About'
 
 function AppRouter() {
   return (
@@ -12,7 +12,7 @@ function AppRouter() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sinopsis" element={<Sinopsis />} />
+<Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>
