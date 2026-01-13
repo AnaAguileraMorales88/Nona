@@ -1,14 +1,14 @@
-    import AuthorNote from '../components/about/AuthorNote'
-    import Team from '../components/about/Team'
-    
+import AuthorNote from '../components/about/AuthorNote'
+import Team from '../components/about/Team'
 
-    function About() {
+
+function About() {
     return (
         <main>
-        <AuthorNote />
-        <Team />
+            <Team />
+            <AuthorNote />
         </main>
     )
-    }
+}
 
-    export default About
+export default About

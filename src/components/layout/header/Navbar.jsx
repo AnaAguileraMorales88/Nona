@@ -8,7 +8,6 @@
         { name: 'INICIO', path: '/' },
         { name: 'SOBRE NOSOTROS', path: '/about' },
         { name: 'MAKING-OFF', path: '/making-off' },
-        { name: 'CRÉDITOS', path: '/creditos' }
     ]
 
     return (
