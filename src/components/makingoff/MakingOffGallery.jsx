@@ -64,7 +64,7 @@ function MakingOffGallery() {
         <section className="bg-[#FCFAEE] px-2 md:px-4 pt-28 md:pt-36 pb-8 overflow-x-hidden">
             <article className="max-w-full md:max-w-4xl mx-auto">
                 <h2 className="text-[#4A4238] text-center text-xl md:text-xl font-bold mt-4 mb-4 md:mb-10 uppercase tracking-wide px-2">
-                    Descubre el detrás de cámaras de nuestra película.
+                    Descubre el detrás de cámaras de nuestra película
                 </h2>
 
                 <figure className="w-full overflow-hidden">

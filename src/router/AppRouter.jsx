@@ -10,7 +10,7 @@ import MakingOff from '../pages/MakingOff'
 function AppRouter() {
   return (
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Header />
       <Navbar />
 
