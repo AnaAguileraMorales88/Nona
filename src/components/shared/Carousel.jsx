@@ -25,7 +25,7 @@
     <figure className="relative max-w-5xl mx-auto">
     <button
         onClick={goToPrevious}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 hover:bg-opacity-100 text-[#DED1B6] p-3 rounded-full transition-all duration-300 z-10 cursor-pointer"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-90 hover:bg-opacity-100 text-[#DED1B6] p-3 rounded-full transition-all duration-300 z-10 cursor-pointer"
         aria-label="Imagen anterior"
     >
         <svg className="w-8 h-8" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">

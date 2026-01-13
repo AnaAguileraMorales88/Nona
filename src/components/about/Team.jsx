@@ -44,7 +44,7 @@
                     <img 
                     src={member.image}
                     alt={member.alt}
-                    className="w-full h-auto object-cover rounded-lg shadow-lg"
+                    className="w-[600px] h-[300px] object-cover rounded-lg shadow-lg"
                     />
                 </figure>
                 <aside className="w-full md:w-4/6">

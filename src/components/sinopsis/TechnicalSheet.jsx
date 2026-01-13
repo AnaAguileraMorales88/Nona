@@ -18,28 +18,28 @@ function TechnicalSheet() {
     ]
 
     return (
-        <section className="bg-[#FCFAEE] py-16 px-6">
+        <section className="bg-[#FCFAEE] py-8 md:py-16 px-6">
             <article className="max-w-6xl mx-auto">
-                <h2 className="text-[#4A4238] text-center text-2xl md:text-2xl font-bold mb-12 uppercase tracking-wide border-b-2 border-[#4A4238] pb-4">
+                <h2 className="text-[#4A4238] text-center text-xl md:text-2xl font-bold mb-8 md:mb-12 uppercase tracking-wide border-b-2 border-[#4A4238] pb-4">
                     Ficha Técnica
                 </h2>
 
-                <section className="flex flex-col md:flex-row gap- md:gap-12 items-center">
-                    <figure className="flex-shrink-0">
+                <section className="flex flex-col md:flex-row gap-6 md:gap-12 items-center md:items-start">
+                    <figure className="flex-shrink-0 w-full md:w-auto">
                         <img
                             src={fichaImg}
                             alt="Imagen representativa del cortometraje NONA"
-                            className="w-full md:w-[500px] md:h-[500px] rounded-lg shadow-lg object-cover"
+                            className="w-full md:w-[400px] md:h-[500px] rounded-lg shadow-lg object-cover"
                         />
                     </figure>
 
-                    <dl className="flex-1 grid grid-cols-1 gap-3 text-[#4A4238] mt-4">
+                    <dl className="flex-1 grid grid-cols-1 gap-2 md:gap-3 text-[#4A4238] w-full">
                         {technicalData.map((item, index) => (
-                            <section key={index} className="flex gap-2">
-                                <dt className="font-bold text-sm md:text-base uppercase tracking-wide">
+                            <section key={index} className="flex flex-col md:flex-row gap-1 md:gap-2">
+                                <dt className="font-bold text-xs md:text-base uppercase tracking-wide">
                                     {item.label}:
                                 </dt>
-                                <dd className="text-sm md:text-base leading-relaxed">
+                                <dd className="text-xs md:text-base leading-relaxed">
                                     {item.value}
                                 </dd>
                             </section>

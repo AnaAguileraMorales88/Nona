@@ -15,14 +15,14 @@
                 <img
                 src={fixedImg1}
                 alt="Luna en escena del cortometraje"
-                className="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg object-cover"
+                className="w-full h-[300px] md:h-[500px] rounded-lg shadow-lg object-cover"
                 />
             </figure>
             <figure className="flex-1">
                 <img
                 src={fixedImg2}
                 alt="Nona en escena del cortometraje"
-                className="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg object-cover"
+                className="w-full h-[300px] md:h-[500px] rounded-lg shadow-lg object-cover"
                 />
             </figure>
             </section>
