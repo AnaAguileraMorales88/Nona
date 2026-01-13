@@ -19,12 +19,12 @@ function Story() {
     ]
 
     return (
-        <section className="bg-[#FCFAEE] py-8 md:py-16 px-6">
-            <article className="max-w-6xl mx-auto">
-                <Carousel images={images} autoPlayInterval={2000} height="400px" />
-            </article>
-        </section>
-    )
+    <section id="gallery-carousel" className="bg-[#FCFAEE] py-8 md:py-16 px-6 scroll-mt-24">
+      <article className="max-w-6xl mx-auto">
+        <Carousel images={images} autoPlayInterval={2000} height="400px" />
+      </article>
+    </section>
+  )
 }
 
 export default Story
