@@ -1,4 +1,4 @@
-    import fichaImg from '../../assets/images/portada.png'
+    import fichaImg from '../../assets/images/manos.png'
 
     function TechnicalSheet() {
     const technicalData = [
@@ -33,7 +33,7 @@
                 />
             </figure>
 
-            <dl className="flex-1 grid grid-cols-1 gap-3 text-[#4A4238]">
+            <dl className="flex-1 grid grid-cols-1 gap-3 text-[#4A4238] mt-4">
                 {technicalData.map((item, index) => (
                 <section key={index} className="flex gap-2">
                     <dt className="font-bold text-sm md:text-base uppercase tracking-wide">
