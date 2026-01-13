@@ -1,74 +1,24 @@
-    import { useState } from 'react'
-    import { Link } from 'react-router-dom'
+    import { useNavigation } from '../../hooks/useNavigation'
+    import NavMenu from './NavMenu'
+    import MobileMenu from './MobileMenu'
+    import HamburgerButton from './HamburgerButton'
 
     function Navbar() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-    const menuItems = [
-        { name: 'INICIO', path: '/' },
-        { name: 'SOBRE NOSOTROS', path: '/about' },
-        { name: 'MAKING-OFF', path: '/making-off' },
-    ]
+    const { isMenuOpen, menuItems, handleLinkClick, toggleMenu } = useNavigation()
 
     return (
         <nav className="fixed top-[40px] left-0 right-0 bg-[#ECDFCC] z-40">
-        <ul className="hidden md:flex justify-center items-center gap-8 py-4 px-6">
-            {menuItems.map((item) => (
-            <li key={item.name}>
-                <Link
-                to={item.path}
-                className="text-[#4A4238] font-medium text-sm tracking-wide
-                        hover:text-[#8B6F47] hover:scale-110 
-                        transition-all duration-300 ease-in-out"
-                >
-                {item.name}
-                </Link>
-            </li>
-            ))}
-        </ul>
+        <NavMenu menuItems={menuItems} onLinkClick={handleLinkClick} />
 
         <section className="md:hidden flex justify-end items-center py-4 px-4">
-            <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="text-[#4A4238] p-2 focus:outline-none focus:ring-2 focus:ring-[#8B6F47] rounded"
-            aria-label="Abrir menú de navegación"
-            aria-expanded={isMenuOpen}
-            >
-            <svg
-                className="w-8 h-8"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-            >
-                {isMenuOpen ? (
-                <path d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                <path d="M4 6h16M4 12h16M4 18h16" />
-                )}
-            </svg>
-            </button>
+            <HamburgerButton isOpen={isMenuOpen} onClick={toggleMenu} />
         </section>
 
-        {isMenuOpen && (
-            <ul className="md:hidden bg-[#FAEED1]">
-            {menuItems.map((item) => (
-                <li key={item.name}>
-                <Link
-                    to={item.path}
-                    onClick={() => setIsMenuOpen(false)}
-                    className="block text-[#4A4238] font-medium text-sm tracking-wide
-                            py-3 px-6 hover:bg-[#D4CFC2] hover:text-[#8B6F47]
-                            transition-all duration-300"
-                >
-                    {item.name}
-                </Link>
-                </li>
-            ))}
-            </ul>
-        )}
+        <MobileMenu 
+            isOpen={isMenuOpen} 
+            menuItems={menuItems} 
+            onLinkClick={handleLinkClick} 
+        />
         </nav>
     )
     }

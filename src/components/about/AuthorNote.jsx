@@ -2,7 +2,7 @@
     return (
         <section className="bg-[#FCFAEE] pt-32 pb-16 px-6">
         <article className="max-w-4xl mx-auto">
-            <h2 className="text-[#4A4238] text-center text-xl md:text-2xl font-bold mb-8 uppercase tracking-wide">
+            <h2 className="text-[#4A4238] text-center text-2xl md:text-2xl font-bold mb-12 uppercase tracking-wide border-b-2 border-[#4A4238] pb-4">
             Nota de la Autora
             </h2>
 

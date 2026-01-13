@@ -33,7 +33,7 @@
         </svg>
     </button>
 
-    <picture className="block w-full bg-[#DED1B6]">
+    <picture className="block w-full bg-[#FCFAEE]">
         <img
         src={images[currentIndex].src}
         alt={images[currentIndex].alt || `Imagen ${currentIndex + 1}`}
