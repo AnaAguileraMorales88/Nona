@@ -133,34 +133,7 @@ npm run build        # Construye la aplicación para producción
 npm run preview      # Previsualiza la build de producción
 npm run lint         # Ejecuta el linter
 ```
-
 ---
-
-## Componentes Principales
-
-### **Carousel**
-Carrusel de imágenes reutilizable con autoplay y navegación manual.
-```javascript
-
-```
-
-### **Button**
-Botón reutilizable con variantes.
-```javascript
-
-  Click aquí
-
-```
-
-### **VideoPlayer**
-Reproductor de video embebido de YouTube.
-```javascript
-
-```
-
----
-
-
 
 ## Paleta de Colores
 ```css
