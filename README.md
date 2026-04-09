@@ -182,6 +182,6 @@ Este es un proyecto personal del cortometraje NONA. Para consultas o colaboracio
 ---
 ## Autora
 
-Ana Aguilera Morales [ https://www.linkedin.com/es/ana-aguilera-morales/ ]
+Ana Aguilera Morales [https://www.linkedin.com/in/ana-aguilera-morales/]
 
 ---
