@@ -1,4 +1,4 @@
-import fichaImg from '../../assets/images/manos.png'
+import fichaImg from '../../assets/images/manos.webp'
 
 function TechnicalSheet() {
     const technicalData = [

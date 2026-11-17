@@ -1,11 +1,11 @@
 import Carousel from '../shared/Carousel'
-import image1 from '../../assets/carousel/Nona5.jpg'
-import image2 from '../../assets/carousel/Nona6.jpg'
-import image3 from '../../assets/carousel/Nona2.png'
-import image4 from '../../assets/carousel/Luna3.jpg'
-import image5 from '../../assets/carousel/Nona3.png'
-import image6 from '../../assets/carousel/Nona4.png'
-import image7 from '../../assets/carousel/Nona7.jpg'
+import image1 from '../../assets/carousel/nona5.webp'
+import image2 from '../../assets/carousel/nona6.webp'
+import image3 from '../../assets/carousel/nona2.webp'
+import image4 from '../../assets/carousel/luna3.webp'
+import image5 from '../../assets/carousel/nona3.webp'
+import image6 from '../../assets/carousel/nona4.webp'
+import image7 from '../../assets/carousel/nona7.webp'
 
 function Story() {
     const images = [

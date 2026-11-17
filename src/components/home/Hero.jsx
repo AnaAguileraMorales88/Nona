@@ -1,4 +1,4 @@
-import portada from '../../assets/images/portada.png'
+import portada from '../../assets/images/portada.webp'
 
 function Hero() {
     return (
