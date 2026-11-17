@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ScrollToTop from '../components/shared/ScrollToTop'
 import Header from '../components/layout/header/Header'
-import Navbar from '../components/layout/header/Navbar'
 import Footer from '../components/layout/footer/Footer'
 import Home from '../pages/Home'
 import About from '../pages/About'
@@ -12,7 +11,6 @@ function AppRouter() {
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <Header />
-      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />

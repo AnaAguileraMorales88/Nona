@@ -1,4 +1,4 @@
-    import logo1 from '../../../assets/collaborators/clubnostalgia.jpg'
+    import logo1 from '../../../assets/collaborators/clubnostalgia-negro.png'
     import logo2 from '../../../assets/collaborators/labonnelogo.webp'
     import logo3 from '../../../assets/collaborators/logofonofox.png'
     import logo4 from '../../../assets/collaborators/logonou.png'

@@ -2,7 +2,7 @@
 
     function NavMenu({ menuItems, onLinkClick }) {
     return (
-        <ul className="hidden md:flex justify-center items-center gap-8 py-4 px-6">
+        <ul className="hidden md:flex justify-center items-center gap-8 pt-1 pb-3 px-6">
         {menuItems.map((item) => (
             <li key={item.name}>
             <Link
