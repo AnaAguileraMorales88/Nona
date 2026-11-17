@@ -40,14 +40,14 @@ function Team() {
                             key={index}
                             className="flex flex-col md:flex-row gap-10 items-start"
                         >
-                            <figure className="w-full md:w-1/5 flex-shrink-2">
+                            <figure className="w-full max-w-sm mx-auto md:mx-0 md:w-1/3 md:max-w-none shrink-0">
                                 <img
                                     src={member.image}
                                     alt={member.alt}
-                                    className="w-[600px] h-[300px] object-cover rounded-lg shadow-lg"
+                                    className="w-full h-auto rounded-lg shadow-lg"
                                 />
                             </figure>
-                            <aside className="w-full md:w-4/6">
+                            <aside className="w-full md:flex-1">
                                 <h3 className="text-[#4A4238] text-xl md:text-2xl font-bold mb-2">
                                     {member.name}
                                 </h3>
