@@ -1,5 +1,5 @@
-import fixedImg1 from '../../assets/carousel/Luna.jpg'
-import fixedImg2 from '../../assets/carousel/nona.png'
+import fixedImg1 from '../../assets/carousel/luna.webp'
+import fixedImg2 from '../../assets/carousel/nona.webp'
 import Button from '../shared/Button'
 
 function StoryImages() {

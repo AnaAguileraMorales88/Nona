@@ -1,6 +1,6 @@
-import itzelImg from '../../assets/images/Itzel.jpg'
-import reginaImg from '../../assets/carousel/nona.png'
-import lunaImg from '../../assets/carousel/luna3.jpg'
+import itzelImg from '../../assets/images/itzel.webp'
+import reginaImg from '../../assets/carousel/nona.webp'
+import lunaImg from '../../assets/carousel/luna3.webp'
 
 function Team() {
     const teamMembers = [

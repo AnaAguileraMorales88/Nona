@@ -1,4 +1,4 @@
-    import sinopsisImg from '../../assets/images/sinopsis.jpg'
+    import sinopsisImg from '../../assets/images/sinopsis.webp'
 
     function SynopsisContent() {
     return (

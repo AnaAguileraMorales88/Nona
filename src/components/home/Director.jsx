@@ -1,4 +1,4 @@
-import directoraImg from '../../assets/images/Itzel.jpg'
+import directoraImg from '../../assets/images/itzel.webp'
 
 function Director() {
     return (

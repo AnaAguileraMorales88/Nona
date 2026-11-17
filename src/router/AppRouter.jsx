@@ -9,7 +9,7 @@ import MakingOff from '../pages/MakingOff'
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <Header />
       <Navbar />
